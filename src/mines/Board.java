@@ -30,7 +30,7 @@ public class Board extends JPanel {
     protected int[] field;
     protected boolean inGame;
     protected int minesLeft;
-    protected Image[] img;
+    protected  transient Image[] img;
     protected int mines = 40;
     protected int rows = 16;
     protected int cols = 16;

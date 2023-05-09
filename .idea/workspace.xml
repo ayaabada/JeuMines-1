@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6faf0d89-645f-4c2c-b859-7b9a0aedc383" name="Changes" comment="Dans la classe MinesAdapter, on appelle tous les attributs de la classe Board qui sont static en utilisant la syntaxe Board.nomAttribut, et les autres attributs avec la syntaxe this.objDeclasseBoard.attribut">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6faf0d89-645f-4c2c-b859-7b9a0aedc383" name="Changes" comment="On a ajouté l'annotation @Override avant la méthode mousePressed dans la classe MinesAdapter et avant la méthode paint dans la classe Board">
       <change beforePath="$PROJECT_DIR$/src/mines/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mines/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mines/MinesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mines/MinesAdapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683672878335</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="On a ajouté l'annotation @Override avant la méthode mousePressed dans la classe MinesAdapter et avant la méthode paint dans la classe Board">
+      <created>1683673187287</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683673187287</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -95,6 +100,7 @@
     <MESSAGE value="changement de la visibilité des attributs de private à protected&#10;Ajout de static pour les attributs final" />
     <MESSAGE value="Création de l'objet board de type Board et la création de constructeur" />
     <MESSAGE value="Dans la classe MinesAdapter, on appelle tous les attributs de la classe Board qui sont static en utilisant la syntaxe Board.nomAttribut, et les autres attributs avec la syntaxe this.objDeclasseBoard.attribut" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dans la classe MinesAdapter, on appelle tous les attributs de la classe Board qui sont static en utilisant la syntaxe Board.nomAttribut, et les autres attributs avec la syntaxe this.objDeclasseBoard.attribut" />
+    <MESSAGE value="On a ajouté l'annotation @Override avant la méthode mousePressed dans la classe MinesAdapter et avant la méthode paint dans la classe Board" />
+    <option name="LAST_COMMIT_MESSAGE" value="On a ajouté l'annotation @Override avant la méthode mousePressed dans la classe MinesAdapter et avant la méthode paint dans la classe Board" />
   </component>
 </project>
