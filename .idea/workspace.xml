@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6faf0d89-645f-4c2c-b859-7b9a0aedc383" name="Changes" comment="changement de la visibilité des attributs de private à protected&#10;Ajout de static pour les attributs final">
+    <list default="true" id="6faf0d89-645f-4c2c-b859-7b9a0aedc383" name="Changes" comment="Création de l'objet board de type Board et la création de constructeur">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mines/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mines/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/mines/MinesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mines/MinesAdapter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,13 +72,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683671004754</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Création de l'objet board de type Board et la création de constructeur">
+      <created>1683671205432</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683671205432</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="déplacement de la classes MinesAdapter vers une classe séparée" />
     <MESSAGE value="changement de la visibilité des attributs de private à protected&#10;Ajout de static pour les attributs final" />
-    <option name="LAST_COMMIT_MESSAGE" value="changement de la visibilité des attributs de private à protected&#10;Ajout de static pour les attributs final" />
+    <MESSAGE value="Création de l'objet board de type Board et la création de constructeur" />
+    <option name="LAST_COMMIT_MESSAGE" value="Création de l'objet board de type Board et la création de constructeur" />
   </component>
 </project>
