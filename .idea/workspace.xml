@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6faf0d89-645f-4c2c-b859-7b9a0aedc383" name="Changes" comment="On a ajouté l'annotation @Override avant la méthode mousePressed dans la classe MinesAdapter et avant la méthode paint dans la classe Board">
-      <change beforePath="$PROJECT_DIR$/src/mines/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mines/Board.java" afterDir="false" />
+    <list default="true" id="6faf0d89-645f-4c2c-b859-7b9a0aedc383" name="Changes" comment="On a ajouté le mot-clé transient à linstance img de type Image[] pour le rendre sérialisable.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mines/Mines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mines/Mines.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683673187287</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="On a ajouté le mot-clé transient à linstance img de type Image[] pour le rendre sérialisable.">
+      <created>1683673405984</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683673405984</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -101,6 +109,7 @@
     <MESSAGE value="Création de l'objet board de type Board et la création de constructeur" />
     <MESSAGE value="Dans la classe MinesAdapter, on appelle tous les attributs de la classe Board qui sont static en utilisant la syntaxe Board.nomAttribut, et les autres attributs avec la syntaxe this.objDeclasseBoard.attribut" />
     <MESSAGE value="On a ajouté l'annotation @Override avant la méthode mousePressed dans la classe MinesAdapter et avant la méthode paint dans la classe Board" />
-    <option name="LAST_COMMIT_MESSAGE" value="On a ajouté l'annotation @Override avant la méthode mousePressed dans la classe MinesAdapter et avant la méthode paint dans la classe Board" />
+    <MESSAGE value="On a ajouté le mot-clé transient à linstance img de type Image[] pour le rendre sérialisable." />
+    <option name="LAST_COMMIT_MESSAGE" value="On a ajouté le mot-clé transient à linstance img de type Image[] pour le rendre sérialisable." />
   </component>
 </project>
