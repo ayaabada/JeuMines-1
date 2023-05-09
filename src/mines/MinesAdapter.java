@@ -4,6 +4,10 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
 class MinesAdapter extends MouseAdapter {
+    Board board;
+    public MinesAdapter(Board b) {
+        this.board=b;
+    }
     public void mousePressed(MouseEvent e) {
 
         int x = e.getX();
