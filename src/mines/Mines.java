@@ -1,7 +1,7 @@
 package mines;
 
 import java.awt.BorderLayout;
-import javax.swing.WindowConstants;
+
 
 import javax.swing.*;
 
