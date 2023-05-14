@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6faf0d89-645f-4c2c-b859-7b9a0aedc383" name="Changes" comment="changement de la methode new game par une autre plus courte">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6faf0d89-645f-4c2c-b859-7b9a0aedc383" name="Changes" comment="changement de la methode paint par une autre plus courte">
       <change beforePath="$PROJECT_DIR$/src/mines/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mines/Board.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684089644948</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="changement de la methode paint par une autre plus courte">
+      <created>1684100831320</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684100831320</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -167,6 +167,7 @@
     <MESSAGE value="On a remplacé JFrame par WindowConstants dans Mines.java&#10;et on a importer import javax.swing.WindowConstants;" />
     <MESSAGE value="on a supprimer importatio de window constant car dans l'importation de java.swing.* on importé toutes les bibliotheque de swing" />
     <MESSAGE value="changement de la methode new game par une autre plus courte" />
-    <option name="LAST_COMMIT_MESSAGE" value="changement de la methode new game par une autre plus courte" />
+    <MESSAGE value="changement de la methode paint par une autre plus courte" />
+    <option name="LAST_COMMIT_MESSAGE" value="changement de la methode paint par une autre plus courte" />
   </component>
 </project>

@@ -205,43 +205,40 @@ public class Board extends JPanel {
     @Override
 
     public void paint(Graphics g) {
-        int cell = 0;
         int uncover = 0;
 
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
-                cell = field[(i * cols) + j];
+                int cell = field[(i * cols) + j];
+                int drawCell = DRAW_COVER;
 
                 if (inGame) {
                     if (cell > COVERED_MINE_CELL) {
-                        cell = DRAW_MARK;
+                        drawCell = DRAW_MARK;
                     } else if (cell > MINE_CELL) {
-                        cell = DRAW_COVER;
+                        drawCell = DRAW_COVER;
                         uncover++;
                     }
                 } else {
-                    if (cell == COVERED_MINE_CELL) {
-                        cell = DRAW_MINE;
-                    } else if (cell == MARKED_MINE_CELL) {
-                        cell = DRAW_MARK;
+                    if (cell == COVERED_MINE_CELL || cell == MARKED_MINE_CELL) {
+                        drawCell = DRAW_MINE;
                     } else if (cell > COVERED_MINE_CELL) {
-                        cell = DRAW_WRONG_MARK;
-                    } else if (cell > MINE_CELL) {
-                        cell = DRAW_COVER;
+                        drawCell = DRAW_WRONG_MARK;
                     }
                 }
 
-                g.drawImage(img[cell], (j * CELL_SIZE), (i * CELL_SIZE), this);
+                g.drawImage(img[drawCell], (j * CELL_SIZE), (i * CELL_SIZE), this);
             }
         }
 
-        if (uncover == 0 && inGame) {
+        if (!inGame) {
+            statusbar.setText("Game lost");
+        } else if (uncover == 0) {
             inGame = false;
             statusbar.setText("Game won");
-        } else if (!inGame) {
-            statusbar.setText("Game lost");
         }
     }
+
 
 
 
