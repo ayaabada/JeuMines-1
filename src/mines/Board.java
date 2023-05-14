@@ -2,7 +2,7 @@ package mines;
 
 import java.awt.Graphics;
 import java.awt.Image;
-import java.util.Random;
+import java.security.SecureRandom;
 
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
@@ -36,6 +36,7 @@ public class Board extends JPanel {
     protected int cols = 16;
     protected int allCells;
     protected JLabel statusbar;
+    private SecureRandom random;
 
 
     public Board(JLabel statusbar) {
@@ -74,7 +75,7 @@ public class Board extends JPanel {
     }
 
     private void deployMines() {
-        Random random = new Random();
+        random = new SecureRandom();
         int mines_deployed = 0;
         while (mines_deployed < mines) {
             int position = (int) (allCells * random.nextDouble());
