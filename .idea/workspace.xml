@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6faf0d89-645f-4c2c-b859-7b9a0aedc383" name="Changes" comment="On a remplacé JFrame par WindowConstants dans Mines.java&#10;et on a importer import javax.swing.WindowConstants;">
+    <list default="true" id="6faf0d89-645f-4c2c-b859-7b9a0aedc383" name="Changes" comment="on a supprimer importatio de window constant car dans l'importation de java.swing.* on importé toutes les bibliotheque de swing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mines/Mines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mines/Mines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mines/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mines/Board.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683674047636</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="on a supprimer importatio de window constant car dans l'importation de java.swing.* on importé toutes les bibliotheque de swing">
+      <created>1683927586282</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683927586282</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -119,6 +126,7 @@
     <MESSAGE value="On a ajouté l'annotation @Override avant la méthode mousePressed dans la classe MinesAdapter et avant la méthode paint dans la classe Board" />
     <MESSAGE value="On a ajouté le mot-clé transient à linstance img de type Image[] pour le rendre sérialisable." />
     <MESSAGE value="On a remplacé JFrame par WindowConstants dans Mines.java&#10;et on a importer import javax.swing.WindowConstants;" />
-    <option name="LAST_COMMIT_MESSAGE" value="On a remplacé JFrame par WindowConstants dans Mines.java&#10;et on a importer import javax.swing.WindowConstants;" />
+    <MESSAGE value="on a supprimer importatio de window constant car dans l'importation de java.swing.* on importé toutes les bibliotheque de swing" />
+    <option name="LAST_COMMIT_MESSAGE" value="on a supprimer importatio de window constant car dans l'importation de java.swing.* on importé toutes les bibliotheque de swing" />
   </component>
 </project>
