@@ -36,7 +36,7 @@ public class Board extends JPanel {
     protected int cols = 16;
     protected int allCells;
     protected JLabel statusbar;
-    private SecureRandom random;
+    SecureRandom random = new SecureRandom();
 
 
     public Board(JLabel statusbar) {
@@ -75,7 +75,7 @@ public class Board extends JPanel {
     }
 
     private void deployMines() {
-        random = new SecureRandom();
+
         int mines_deployed = 0;
         while (mines_deployed < mines) {
             int position = (int) (allCells * random.nextDouble());
